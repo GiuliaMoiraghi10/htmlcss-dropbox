@@ -11,11 +11,21 @@ html{
 ul, ol{
     list-style: none;
 }
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+img{
+    max-width: 100%;
+}
+
 /* DEBUG */
 
-.debug{
+/* .debug{
     border: 2px solid black;
-}
+} */
 
 
 /* CUSTOM PROPERTIES */
@@ -23,7 +33,6 @@ ul, ol{
     --brand-color: #0061FF;
     --brand-color-background: #B4D0E7;
 }
-
 
 /* NAVBAR */
 
@@ -33,22 +42,39 @@ ul, ol{
     align-items: center;
     justify-content: space-between;
     padding: 30px;
+    max-width: 1920px;
 }
 
 .container-navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    column-gap: 40px;
 }
 
 .nav-link{
     font-size: 16px;
 }
 
+.nav-link img{
+    display: block;
+}
+
+.cta-nav-link{
+    background-color: var(--brand-color);
+    padding: 5px 10px;
+    color: white;
+}
+
+/* HERO */
+
 .hero{
-    background-color: var(--brand-color-background)
+    background-color: var(--brand-color-background);
+    display: flex;
+    justify-content: center;
 }
 
 .hero-content{
     max-width: 1105px;
+    padding: 100px 0;
 }

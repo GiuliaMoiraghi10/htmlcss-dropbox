@@ -74,7 +74,21 @@ img{
     justify-content: center;
 }
 
-.hero-content{
+.container-hero{
     max-width: 1105px;
     padding: 100px 0;
+}
+
+.row-hero{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.hero-title{
+    font-size: 80px;
+    font-style: 700;
 }

@@ -32,6 +32,7 @@ img{
 :root{
     --brand-color: #0061FF;
     --brand-color-background: #B4D0E7;
+    --cta-color: white;
 }
 
 /* NAVBAR */
@@ -63,7 +64,7 @@ img{
 .cta-nav-link{
     background-color: var(--brand-color);
     padding: 5px 10px;
-    color: white;
+    color: var(--cta-color);
 }
 
 /* HERO */
@@ -81,7 +82,7 @@ img{
 
 .row-hero{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .col-100{
@@ -91,4 +92,35 @@ img{
 .hero-title{
     font-size: 80px;
     font-style: 700;
+}
+
+.col-33{
+    width: 33%;
+}
+
+.col-65{
+    width: 65%;
+}
+
+.row-hero.row-hero-col{
+    padding-top: 60px;
+}
+
+.txt-hero{
+    font-size: 16px;
+}
+
+.cta-hero{
+    background-color: var(--brand-color);
+    padding: 8px 12px;
+    color: var(--cta-color);
+    width: max-content;
+}
+
+.txt-hero{
+    padding-bottom: 40px;
+}
+
+.txt-hero-2{
+    padding-top: 40px;
 }

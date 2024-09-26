@@ -73,6 +73,10 @@ img{
     flex-wrap: wrap;
 }
 
+h2{
+    font-size: 38px;
+}
+
 .hero{
     background-color: var(--brand-color-background);
     display: flex;
@@ -312,4 +316,12 @@ img{
 
 .partner{
     padding-bottom: 140px;
+}
+
+.more{
+    padding: 200px 0 150px 0;
+}
+
+.more-title{
+    padding-bottom: 60px;
 }

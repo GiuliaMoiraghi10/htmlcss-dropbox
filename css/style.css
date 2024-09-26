@@ -148,6 +148,10 @@ img{
 	min-height: 300px;
 }
 
+.plans{
+    padding-bottom: 140px;
+}
+
 .container-sm {
 	max-width: 1000px;
 	margin: 0 auto;
@@ -240,7 +244,10 @@ img{
 	border: 1px solid #E9E9EA;
 	min-height: 270px;
     padding: 20px;
-    position: relative;   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
 }
 
 .col-12_bottom{
@@ -260,8 +267,20 @@ img{
 
 .col-60{
     width: 60%;
+
 }
 
 .col-40{
     width: 40%;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.partner_btn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    max-width: 160px;
+    text-align: center;
 }
